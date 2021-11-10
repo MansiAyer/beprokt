@@ -1,3 +1,3 @@
-with open("../README.md","w",encoding="utf-8") as file:
+with open("../README.md","a",encoding="utf-8") as file:
   file.write("button")
   
