@@ -31,3 +31,5 @@ jobs:
         uses: MansiAyer/push@testing
         with: 
           script: '../src/script.py'
+          email: ''
+          actions_token: ${{ secrets.GITHUB_TOKEN }}
